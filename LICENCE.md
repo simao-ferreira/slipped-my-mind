@@ -7,7 +7,7 @@ and [contributors](https://github.com/tldr-pages/tldr/graphs/contributors).
 
 
 ----
-My addions, changes or scripts are licensed under the MIT license,
+My additions, changes or scripts are licensed under the MIT license,
 without hindering of the tldr-pages licencse agreement:
 
 > **The MIT License**
