@@ -5,7 +5,7 @@
 
 - Clone a repository containing submodules:
 
-`git clone --recursive {{repository_url}}`
+`git clone --recurse-submodules {{repository_url}}`
 
 - Install a repository's specified submodules:
 
