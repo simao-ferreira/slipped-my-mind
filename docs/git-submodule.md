@@ -31,3 +31,6 @@
 
 `git pull --recurse-submodules`
 
+- Move submodule to a new directory
+
+`git mv {{path/to/old}} {{path/to/new}}`
