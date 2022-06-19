@@ -11,6 +11,22 @@
 
 `kubectl get namespace`
 
-- Print available resources for given namespace
+- Print available resources for given namespace, (--namespace/-n)
 
 `kubectl get {{pod|service|deployment|all|...}} --namespace {{namespace}}`
+
+- Print available pods:
+
+`kubectl get pods -n {{namespace}}`
+
+- Print release status:
+
+`kubectl -n {{namespace}} status {{application_name}}`
+
+- Print pod logs:
+
+`kubectl -n {{namespace}} logs {{pod_name}} -c {{application_name}}`
+
+- Print deployment information:
+
+`kubectl -n {{namespace}} describe deployment {{pod_name}}`
